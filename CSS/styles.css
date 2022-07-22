@@ -1,0 +1,171 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    text-decoration: none;
+    padding: 10px auto;
+}
+
+
+
+.header{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 16px;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1400px;
+}
+
+.under{
+    text-decoration: underline;
+}
+
+.navbar a{
+    color: yellow;
+    text-decoration: none;
+    margin: 1.5rem;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar a:hover{
+    color: red;
+}
+
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.Home {
+    position: relative;
+    color: white;
+     background-color: RGB(32, 33, 36);
+    height: 100vh;
+    width: 100%;
+    font-weight: 400;
+    position: relative;
+}
+
+.name{
+    margin-top: 15%;
+    margin-left: 8%;
+}
+
+.name h1{
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.txtbig{
+    font-size: 1.5rem;
+}
+
+.Button{
+    background-color: yellow;
+    margin-left: 8%;
+    padding: 0.6rem 1rem;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.Button:hover{
+    border-color: yellow;
+    background-color: transparent;
+    color: white;
+}
+
+.image:hover .shape{
+    bottom: 40px;
+}
+
+.image:hover .myimage{
+    left: 45%;
+}
+
+ion-icon {
+    color: white;
+    margin: 2%;
+    margin-top: 10%;
+    font-size: 32px;
+}
+
+.social{
+    margin-left: 6%
+}
+
+ion-icon:hover{
+    color: orange;
+    transition: color 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .Home{
+        height: 100vh;
+        width: 100%;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .image{
+        bottom: 0;
+        height: 45%;
+        width: 25%;
+    }
+    .header{
+        flex-direction: column-reverse;
+    }
+
+    .name h1{
+        font-size: 1.8rem;
+    }
+
+    .txtbig{
+        font-size: 1.3rem;
+    }
+
+    .navbar a{
+        margin: 0.5rem;
+        margin-left: 0.5rem ;
+    }
+
+    .ion-icon{
+        font-size: 16px;
+    }
+
+    .name p{
+        margin-right: 20px;
+    }
+  }
