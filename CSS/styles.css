@@ -213,7 +213,7 @@ ion-icon:hover{
     background-color: white;
     transition: 0.3s;
     border-radius: 18px;
-    padding: 0 0;
+    padding: 2px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -232,6 +232,21 @@ ion-icon:hover{
 
 .procard p{
     margin: 6px 0;
+}
+
+.procard a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.procard a:hover{
+    color: white;
+}
+
+.procard:hover{
+    color:  white;
+    background-color:  black;
 }
 
 
@@ -300,6 +315,20 @@ ion-icon:hover{
         margin-top: 40px;
         margin-right: 20px;
     } 
+
+    .skills{
+        width: 100%;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .card{
+    
+    }
+
+    .procard{
+    margin-bottom: 20px;
+    }
   }
 
 
